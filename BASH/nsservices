@@ -1,0 +1,6 @@
+#!/bin/bash
+function nsservices { 
+
+	netstat -lan | grep -v unix 
+}
+nsservices

@@ -1,0 +1,2 @@
+#!/bin/bash
+connect_local.ex core sysAdmin

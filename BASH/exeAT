@@ -1,0 +1,2 @@
+#!/bin/bash
+AT_CONFIG at80002p sysAdmin
