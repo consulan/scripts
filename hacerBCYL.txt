@@ -1,0 +1,15 @@
+1) listar el directorio con los archivos gzip que estan actualmente
+2) si no hay ninguno, zipear el que actualmente esta con la extension .log en nombre[numero].gz
+3) borrar el archivo .log
+4) crear uno nuevo vacio
+5) reiniciar el servicio de syslog (rsyslog)
+
+
+-------------------------------------------------------------------------------------------------
+2) si ya hay archivos .gz, tomar el numero del ultimo nombre del archivo creado y guardarlo 
+en una variable llamada "numero"
+3) comprimimos el archivo .log en nombre[numero+1].gz
+4) borramos el archivo .log
+5) creamos un nuevo vacio
+6) reiniciar el servicio de syslog (rsyslog)
+--------------------------------------------------------------------------------------------------------
