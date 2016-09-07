@@ -1,0 +1,4 @@
+UNIX Fedora/RHEL/CentOS
+-------------------------------------------
+verificar datos del host
+hostnamectl
