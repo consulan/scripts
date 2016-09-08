@@ -1,0 +1,13 @@
+######## BASH ######
+En este directorio se encuentra documentada toda la informacion para automatizar
+tareas que normalmente se realizan en linux/unix
+
+En este caso este sistema BASH es particularmente para los sistemas basados en 
+Fedora/CentOS/RHEL
+
+###### BACKUP #####
+Se debe crear un bash que permita leer un archivo donde se encuentren los
+directorios a realizar backup (semanalmente y mensualmente), comprimiendolos.
+
+El bash se llama backup_sistema
+El archivo de configuracion se llama directorios_backup.txt
