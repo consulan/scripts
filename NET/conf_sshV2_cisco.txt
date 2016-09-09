@@ -1,0 +1,7 @@
+############ CONFIGURACION PARA HABILITAR SSH V2 ####################
+
+(config)ip ssh rsa keypair-name <NAME>
+(config)crypto key generate rsa usage-keys label <NAME> modulus <[768-1024-2048]>
+(config)ip ssh version 2
+
+show ip ssh
