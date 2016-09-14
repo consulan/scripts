@@ -1,0 +1,25 @@
+INSTALL NST 24 in notebook
+##########################
+Steps
+1) - download liveusb-creator and ISO image of NST from Internet
+2) - install in Windows 7/8 version
+3) - plug a usb stick clean in usb port
+4) - execute liveusb-creator, select ISO image
+5) - The program make all the job
+
+IN THE NOTEBOOK
+##########################
+
+1) reset the notebook and enter to BIOS setup
+2) select init from RAM or USB disk
+3) NST start and install.
+
+
+TROUBLESHOOTING
+##########################
+1) Error when the USB starts -> vesamenu.c32: not a COM32R image and then show: 'boot:'
+
+SOLU: copy from a clean installation of FEDORA or similar distro (centOS, RHEL) the vesamenu.c32, this file (if exists) it is in /usr/share/syslinux/vesamenu.c32. Copy into the USB disk in the direcotory syslinux.
+
+RESULT: OK, function!! :-)
+
