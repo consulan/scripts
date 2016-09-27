@@ -1,0 +1,6 @@
+#######_ENABLE_WIRESHARK_4507R_#####
+Example
+
+monitor capture <word> interface vlan <id_vlan> both match ipv4 any any buffer circular size 50
+monitor capture <word> file location bootflash:<name_of_file>.pcap ring 3 size 20
+monitor capture 3PISO start
