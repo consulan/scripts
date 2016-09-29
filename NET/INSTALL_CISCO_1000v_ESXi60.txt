@@ -1,0 +1,16 @@
+####### LINKS PARA INSTALACION DE Cisco V1000 ##############
+VSM and VEM are the parts of 1000v product.
+VSM (Virtual Supervisor Module) - VEM (Virtual Ethernet Module).
+Both software need install in ESXi and connect throw the vCenter VMware.
+
+links for documents to install the programs.
+
+#### INSTALL VEM on ESX 5.5 or +
+https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1013551
+
+### INSTALL VSM on ESX 5.5 or +
+http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus1000/sw/5_2_1_s_v_3_1_4/install/guide/b_Cisco_N1KV_VMware_Install_and_Upgrade_Guide_521SV314/b_Cisco_N1KV_VMware_Install_and_Upgrade_Guide_521SV314a_chapter_01.html#task_058DEF3537364E448BCDB762AA5C6626
+
+#### IF YOU HAVE A PROBLEM WITH A INSTALLATION
+https://supportforums.cisco.com/discussion/12196731/installed-wrong-vem-module-esxi-55
+
